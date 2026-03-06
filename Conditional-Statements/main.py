@@ -1,9 +1,9 @@
 '''
 if-elif-else SYNTAX:
 
-if(condition):
+if condition:
     Statement1
-elif(condition):
+elif condition:
     Statemant2
 else:
 Statement   
@@ -14,15 +14,15 @@ The else statement always runs if above conditions are false
 '''
 
 
-# if(True):
+# if True:
 #     print("Condition is if")
 # else:
 #     print("Condition is else")
 
 
-# if(False):
+# if False :
 #     print("Condition is if")
-# elif(True):
+# elif True:
 #     print("Condition is elif")
 # else:
 #     print("End")
@@ -30,7 +30,7 @@ The else statement always runs if above conditions are false
 # === P1===
 
 # age = 16
-# if(age>=18):
+# if age>=18 :
 #     print("Congratulations!, Eligible to vote")
 # else:
 #     print("Sorry, Not Eligible to vote")
@@ -41,11 +41,11 @@ The else statement always runs if above conditions are false
 
 # light_color = "green"
 
-# if(light_color == "red"):
+# if light_color == "red" :
 #     print("Stop")
-# elif(light_color == "yellow"):
+# elif light_color == "yellow" :
 #     print("Ready")
-# elif(light_color == "green"):
+# elif light_color == "green" :
 #     print("Go")
 # else:
 #     print("Traffic light not working")
@@ -54,9 +54,10 @@ The else statement always runs if above conditions are false
 # === P3 ===
 
 # age = int(input("enter your age: "))
-# if(age>=18):
+# if age>=18 :
 #     print("Can drive bike")
-#     if(age>=20):
+#     if age>=20 :
 #         print("Can drive car also")
 # else:
 #     print("cannot drive")
+
