@@ -44,5 +44,21 @@ for i in range(10,0,-1):
 curr_popn = 10000
 
 for years in range(10,0,-1):
-    print(i, curr_popn)
-    curr_popn = curr_popn - 0.1*curr_popn
+    print(years, curr_popn)
+    curr_popn = int(curr_popn/1.1)
+
+
+# === -- ===
+
+# ==== sum of n numbers in pattern 1/1! + 2/2! + 3/3! ...... n/n!
+
+import math
+result = 0
+n = int(input("Enter n: "))
+for i in range(1,n+1):
+    result = result + (i/math.factorial(i))
+    
+print(result)
+    
+
+
